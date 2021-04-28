@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stride.Engine" Version="4.0.1.1401" />
+
+    <PackageReference Include="Stride.Video" Version="4.0.1.1401" />
+    <PackageReference Include="Stride.Physics" Version="4.0.1.1401" />
+    <PackageReference Include="Stride.Navigation" Version="4.0.1.1401" />
+    <PackageReference Include="Stride.Particles" Version="4.0.1.1401" />
+    <PackageReference Include="Stride.UI" Version="4.0.1.1401" />
+
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.0.1.1401" IncludeAssets="build;buildTransitive" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Assets\Effects\MeshOutlineShader.sdsl.cs">
+      <DesignTime>True</DesignTime>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\Effects\MeshOutlineShader.sdsl">
+      <LastGenOutput>MeshOutlineShader.sdsl.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>
