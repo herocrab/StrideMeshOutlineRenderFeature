@@ -18,5 +18,5 @@ How it works:
 1) Mesh outline render feature adds a dynamic shader effect to the pipeline for specific render groups.
 2) Mesh outline render feature increases size of rendered objects.
 3) Rendered objects are saturated to a color AND intensity specified by the outline entity component.
-4) Rendered objects are rendered with CullMode.Front, so they are behind objects.
+4) Rendered "outline" objects are rendered with CullMode.Front, so they are behind objects.
 
