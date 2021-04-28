@@ -4,8 +4,8 @@ This is a simple outline renderer for Stride.
 <img src="screenshot.png">
 
 1) Clone the project.
-2) Explore the compositor render features (left side).
-3) Expand the MeshOutlineRenderFeature (right side). Note the RenderGroupMask.
+2) Explore the compositor render features.
+3) Expand the MeshOutlineRenderFeature properties. Note the RenderGroupMask.
 4) Explore entities in the scene with the outline entity component attached.
 
  <img src="compositor1.png">
