@@ -37,11 +37,9 @@ namespace MeshOutlineRenderFeature
         {
             base.InitializeCore();
 
-            // initialize shader
             shader = new DynamicEffectInstance("MeshOutlineShader");
             shader.Initialize(Context.Services);
 
-            // create the pipeline state and set properties that won't change
             pipelineState = new MutablePipelineState(Context.GraphicsDevice);
             pipelineState.State.SetDefaults();
             pipelineState.State.InputElements = VertexPositionNormalTexture.Layout.CreateInputElements();
