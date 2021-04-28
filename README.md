@@ -11,6 +11,8 @@ This is a simple outline renderer for Stride.
  <img src="compositor1.png">
  
  <img src="compositor2.png">
+ 
+ <img src="outline_component.png">
 
 How it works:
 1) Mesh outline render feature adds a dynamic shader effect to the pipeline for specific render groups.
