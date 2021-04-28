@@ -1,9 +1,7 @@
 # StrideMeshOutlineRenderFeature
-Mesh Outline Render Feature for Stride
+This is a simple outline renderer for Stride.
 
 <img src="screenshot.png">
-
-This is a simple outline renderer for Stride.
 
 1) Clone the project.
 2) Explore the compositor render features (left side).
